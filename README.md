@@ -46,3 +46,12 @@ No script, altere:
 * Nome das planilhas e seus respectivos arquivos .csv
 * Caminho para o JSON de credenciais da conta de serviço do Google
 * Queries para gerar as bases de dados
+
+### Como Executar
+```
+python seu_script.py
+```
+
+### Personalização
+* Adicione quantas queries SQL quiser na lista consultas_e_arquivos.
+* Mapeie novas planilhas do Google adicionando no dicionário nomes_arquivos.
